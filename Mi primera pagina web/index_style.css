@@ -1,0 +1,86 @@
+:root {
+  --color-primary: #78ff69;
+  --color-link: #0d752e;
+ 
+}
+
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+div#general{
+	margin-top: 50px;
+	height: 1230px;
+}
+
+div#body{
+	margin-top:20px;
+	margin-left: 250px;
+	width: 750px;
+	height: 1050px;
+	background-color: var(--color-primary);
+}
+
+div#info{
+	float:right;
+	width: 300px;
+	height: 180px;
+	background-color: var(--color-primary);
+}
+
+div#historial{
+  position: fixed;
+  z-index: 2;
+	float:left;
+	width: 200px;
+	height: 200px;
+	background-color: var(--color-primary);
+}
+
+div#creditos{
+	margin-top: 215;
+	position: fixed;
+	z-index: 3;
+	width: 200px;
+	height: 200px;
+	background-color: var(--color-primary);
+}
+
+div#titulo{
+	margin-left: 250;
+	width: 750;
+	height: 100px;
+	background-color: var(--color-primary);
+}
+div#pie{
+	margin-bottom: 0;
+	height: 60px;
+	background-color: #2bbf1b;
+}
+div#espacio{
+	margin-top: 0;
+	height: 80px;
+	width: 100%;
+	background-color: var(--color-primary);
+
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+
+a#Links:visited {
+  color: var(--color-link);
+}
+
+a#Accesos:visited {
+  color: var(--color-link);
+}
+
+a#Link:visited {
+  color: var(--color-link);
+}
